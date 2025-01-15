@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Burger Web</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img
+          src="./img/logo-removebg-preview.png"
+          alt="logo"
+          class="img-navbar"
+        />
+        <div class="container-menu">
+          <label for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+          <input type="checkbox" name="" id="menu-toggle" />
+          <ul class="menu">
+            <li><a href="hero">Inicio</a></li>
+            <li><a href="about">Sobre Nosotros</a></li>
+            <li><a href="products">Productos</a></li>
+            <li><a href="contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- SECTION HERO -->
+      <section id="hero">
+        <div class="hero-text">
+          <h1>Hamburguesas que te roban el corazón y conquistan tu paladar</h1>
+          <p>
+            Carnes jugosas, pan recién horneado y los ingredientes más frescos
+            en cada bocado. Vive la experiencia de comer como nunca antes.
+          </p>
+          <button class="btn-hero">Ver menú</button>
+        </div>
+        <img src="./img/hero-hamburgesa.png" alt="" class="img-hero" />
+      </section>
+
+      <!-- SECTION SOBRE NOSOTROS -->
+      <section id="about">
+        <div class="about-text">
+          <h2 class="about-titulo">
+            En Mi Hamburguesería, creemos que una buena hamburguesa puede
+            cambiar tu día. Por eso, desde 2023, nos dedicamos a ofrecer una
+            experiencia única con cada bocado. Todo comienza con ingredientes
+            frescos, pan artesanal y recetas que combinan tradición e innovación
+          </h2>
+          <p class="about-parrafo">
+            "Somos apasionados por lo que hacemos, y nuestra misión es simple:
+            que cada cliente salga con una sonrisa y el sabor de la felicidad en
+            su paladar."
+          </p>
+          <div class="container-about-final">
+            <div class="cajas-about">
+              <img src="./img/calidad.png" alt="" class="calidad-img" />
+              <p>Calidad</p>
+            </div>
+            <div class="cajas-about">
+              <img src="./img/pasion.png" alt="" class="pasion-img" />
+              <p>Pasión</p>
+            </div>
+            <div class="cajas-about">
+              <img src="./img/innovacion.png" alt="" class="innovacion-img" />
+              <p>Innovación</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION PRODUCTS -->
+
+      <section id="products">
+        <h2>Burgers</h2>
+        <div class="container-products">
+          <div class="product">
+            <img src="./img/cheese.png" alt="" />
+            <div class="products-text">
+              <p class="product-nombre">Cheese</p>
+              <p class="product-desc">Medallón de carne con cheddar.</p>
+            </div>
+            <div class="product-price">
+              <span>$8000</span>
+              <button>Comprar</button>
+            </div>
+          </div>
+          <div class="product">
+            <img src="./img/cheesebacon.png" alt="" />
+            <div class="products-text">
+              <p class="product-nombre">Cheese Bacon</p>
+              <p class="product-desc">Medallón de carne, cheddar y bacon.</p>
+            </div>
+            <div class="product-price">
+              <span>$8500</span>
+              <button>Comprar</button>
+            </div>
+          </div>
+          <div class="product">
+            <img src="./img/bbq.png" alt="" />
+            <div class="products-text">
+              <p class="product-nombre">BBQ</p>
+              <p class="product-desc">
+                Medallón de carne, cheddar, bacon, cebolla caramelizada y salsa
+                barbacoa.
+              </p>
+            </div>
+            <div class="product-price">
+              <span>$9200</span>
+              <button>Comprar</button>
+            </div>
+          </div>
+          <div class="product">
+            <img src="./img/american.png" alt="" />
+            <div class="products-text">
+              <p class="product-nombre">American</p>
+              <p class="product-desc">
+                Medallón de carne con cheddar, lechuga, tomate, cebolla y salsa
+                thousand island.
+              </p>
+            </div>
+            <div class="product-price">
+              <span>$8700</span>
+              <button>Comprar</button>
+            </div>
+          </div>
+          <div class="product">
+            <img src="./img/big.png" alt="" />
+            <div class="products-text">
+              <p class="product-nombre">Big</p>
+              <p class="product-desc">
+                Medallón de carne cheddar - lechuga- Pepinos- cebolla brunoise-
+                salsa big
+              </p>
+            </div>
+            <div class="product-price">
+              <span>$9400</span>
+              <button>Comprar</button>
+            </div>
+          </div>
+          <div class="product">
+            <img src="./img/cuarto de libra.png" alt="" />
+            <div class="products-text">
+              <p class="product-nombre">Cuarto de libra</p>
+              <p class="product-desc">
+                Medallón de carne, cheddar, ketchup, mostaza, cebolla brunoise y
+                pepinos.
+              </p>
+            </div>
+            <div class="product-price">
+              <span>$10100</span>
+              <button>Comprar</button>
+            </div>
+          </div>
+        </div>
+        <button class="btn-product">Ver más</button>
+      </section>
+
+      <!-- SECTION CONTACT -->
+      <section id="contact">
+        <form action="">
+          <h2>Dejanos tu consulta o Sugerencia</h2>
+          <label for="nombre">Nombre y apellido</label>
+          <input
+            type="text"
+            name=""
+            id="nombre"
+            placeholder="Ingerse su nombre..."
+          />
+          <label for="correo">Correo electronico</label>
+          <input
+            type="email"
+            name=""
+            id="correo"
+            placeholder="Ingrese su Email"
+          />
+          <label for="comentario">Dejanos tu comentario</label>
+          <textarea
+            name=""
+            id="comentario"
+            placeholder="Escribinos acá tu opinión o consulta"
+          ></textarea>
+
+          <p>Nos podes encontrar en Avenida 14 n° 5150</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.8347127255834!2d-58.20836462532385!3d-34.75975626575385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f4eb1ca2559%3A0x3098c4c1d06705bf!2sAv.%2014%205150%2C%20B1880BFS%20Berazategui%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1736963457893!5m2!1ses-419!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
